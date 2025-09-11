@@ -16,4 +16,3 @@ class Solution(object):
             else:
                 return False            
         return True
-print(Solution().isValid(input()))
