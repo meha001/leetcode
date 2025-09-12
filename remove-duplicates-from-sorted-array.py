@@ -14,4 +14,6 @@ class Solution(object):
                 nums[k] = nums[i]
                 k += 1
         
-        return k
+        return k, nums
+
+print(Solution().removeDuplicates([1, 2, 3, 4, 5, 5]))
