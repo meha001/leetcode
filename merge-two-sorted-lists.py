@@ -14,7 +14,7 @@ class Solution(object):
         ls2 = []
         current2 = list2
         while current2:
-            ls2.append(current2.val)
+            ls2.append(current2.val) 
             current2 = current2.next
         
         ls = ls1 + ls2
