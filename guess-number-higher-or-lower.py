@@ -21,4 +21,4 @@ class Solution:
             else:  
                 t1 = mid + 1      
         
-        return -1  
+        return -1   
