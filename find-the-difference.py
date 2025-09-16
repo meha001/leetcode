@@ -5,8 +5,4 @@ class Solution(object):
         :type t: str
         :rtype: str
         """
-        for i in s + t:
-            if s+t.count(i) != 2:
-                return i
-        return ''
-    
+        return [i for i in t if s.count(i) != t.count(i)][0]
