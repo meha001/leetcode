@@ -1,10 +1,13 @@
 class Solution:
     def firstUniqChar(self, s: str) -> int:
-        t = set(s)
-        for i in t:
-            if s.count(i) == 1:
-                return s.index(i)
+        t = list('abcdefghijklmnopqrstuvwxyz')
+        for i in range(len(s)):
+            if s[i] in t:
+                if s.count(s[i]) != 1:
+                    t.remove(s[i])
+                if s.count(s[i]) == 1:
+                    return i
             
         return -1
     
-print(Solution().firstUniqChar('leetcode'))
+print(Solution().firstUniqChar('loveleetcode'))
