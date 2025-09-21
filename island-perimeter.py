@@ -1,3 +1,4 @@
+__author__ = 'meha001'
 class Solution:
     def islandPerimeter(self, grid: list[list[int]]) -> int:
         summa = 0
