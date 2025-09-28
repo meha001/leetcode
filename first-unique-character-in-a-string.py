@@ -1,3 +1,4 @@
+__author__ = 'meha001'
 class Solution:
     def firstUniqChar(self, s: str) -> int:
         t = list('abcdefghijklmnopqrstuvwxyz')

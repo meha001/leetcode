@@ -1,3 +1,4 @@
+__author__ = 'meha001'
 class Solution(object):
     def summaryRanges(self, nums):
         """

@@ -1,3 +1,4 @@
+__author__ = 'meha001'
 from collections import defaultdict
 class Solutions:
     def longestPalindrome(s: str) -> int:

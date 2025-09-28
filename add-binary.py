@@ -1,3 +1,5 @@
+__author__ = 'meha001'
+
 class Solution(object):
     def addBinary(self, a, b):
         """

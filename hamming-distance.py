@@ -1,3 +1,4 @@
+__author__ = 'meha001'
 class Solution:
     def hammingDistance(self, x: int, y: int) -> int:
         x = bin(x)[2:]

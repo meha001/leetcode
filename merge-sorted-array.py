@@ -1,3 +1,4 @@
+__author__ = 'meha001'
 import atexit
 
 def reset_timer():

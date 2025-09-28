@@ -1,3 +1,4 @@
+__author__ = 'meha001'
 class Solution:
     def isSubsequence(self, s: str, t: str) -> bool:
         s = (list(s))

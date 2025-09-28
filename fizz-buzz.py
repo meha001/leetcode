@@ -1,3 +1,4 @@
+__author__ = 'meha001'
 class Solution:
     def fizzBuzz(self, n: int) -> list[str]:
         t = []

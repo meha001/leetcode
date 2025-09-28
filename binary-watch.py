@@ -1,3 +1,5 @@
+__author__ = 'meha001'
+
 class Solution:
     def readBinaryWatch(self, turnedOn: int) -> list[str]:
         return ([

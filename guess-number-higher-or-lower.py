@@ -4,7 +4,10 @@
 #          1 if num is lower than the picked number
 #          otherwise return 0
 # def guess(num: int) -> int:
+__author__ = 'meha001'
+
 __import__("atexit").register(lambda: open("display_runtime.txt", "w").write("0"))
+
 class Solution:
     def guessNumber(self, n: int) -> int:
         t1 = 1
