@@ -1,11 +1,10 @@
 __author__ = 'meha001'
 
 class Solution:
-    def getRow(self, numRows: int) -> list[list[int]]:
+    def generate(self, numRows: int) -> list[list[int]]:
         t = [[1], [1, 1]]
-        if numRows == 0:return t[0]
-        elif numRows == 1:return t[1]
-        elif numRows == 2: return [1, 2, 1]
+        if numRows == 1:return [t[0]]
+        elif numRows == 2: return t
         else:
             while len(t)-1 != numRows:
                 tlis = [1]
@@ -15,6 +14,6 @@ class Solution:
                 t.append(tlis)
             return t[-1]
 
-print(Solution().getRow(3))
+print(Solution().generate(3))
 
 # __import__("atexit").register(lambda: open("display_runtime.txt", "w").write("0"))
