@@ -18,4 +18,4 @@ class Solution:
                 i = 0
         return kol
             
-print(Solution().timeRequiredToBuy([2,3,2], 2))
+print(Solution().timeRequiredToBuy([2,3,2], 2)) 
