@@ -1,0 +1,14 @@
+__author__ = 'meha001'
+from typing import *
+
+class Solution:
+    def splitWordsBySeparator(self, words: List[str], separator: str) -> List[str]:
+        t = []
+        for i in words:
+            if len(i.split(separator)) != 0:
+                t += i.split(separator)
+        t2 = []
+        for i in t:
+            if len(i) != 0:
+                t2.append(i)
+        return t2
